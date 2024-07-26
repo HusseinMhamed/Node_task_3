@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image:linear-gradient(rgb(66, 66, 255),rgb(96, 109, 253));
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: rgba(0, 0, 255, 0.38);
+}
+.footer{
+    background-image:linear-gradient(rgb(66, 66, 255),rgb(96, 109, 253));
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 50px;
+}
+h2{
+    background-color: gray;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
